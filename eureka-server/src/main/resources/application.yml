@@ -1,5 +1,5 @@
 server:
-  port: 9086
+  port: 9080
 
 spring:
   application:
@@ -10,7 +10,7 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      defaultZone: "http://localhost:9086/eureka/"
+      defaultZone: "http://127.0.0.1:9080/eureka/"
 
   server:
     enable-self-preservation: false
